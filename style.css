@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; /* Add padding for better spacing */
+    background-color: #333; /* Add a background color for the navigation bar */
+    color: white; /* Text color for the navigation items */
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 15px; /* Adjust spacing between navigation items */
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white; /* Set link color */
+}
+
+/* Style your other elements as needed */
+
+
+.login {
+    margin: 0; /* Remove margin for other elements */
+}
+
+.search-bar input {
+    padding: 5px; /* Add padding for input field */
+    border-radius: 15px;
+}
+
+.search-bar button {
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.search-bar button:hover {
+    color: red;
+    background-color: white;
+    border-color: black;
+}
+
+
+.login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login:hover{
+    color: red;
+    background-color: white;
+}
+
+.other:hover {
+    color: red;
+    background-color: transparent;
+
+}
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.page {
+    width: 100%;
+    height: 100vh;
+    background: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h1{
+    font-size: 300%;
+}
+.content h1 span{
+    color: azure;
+}
+
+.content h2{
+    color: azure;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.register{
+    background-color: #343131; 
+    color: rgb(0, 255, 157);
+    padding: 8px;
+    border: 10px black ;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.register:hover {
+    color: black;
+    background: white;
+    cursor: pointer;
+}
