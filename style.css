@@ -8,9 +8,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px; /* Add padding for better spacing */
-    background-color: #333; /* Add a background color for the navigation bar */
-    color: white; /* Text color for the navigation items */
+    padding: 10px; 
+    background-color: #333;
+    color: white;
 }
 
 .nav-list {
@@ -21,23 +21,21 @@
 }
 
 .nav-list li {
-    margin-right: 15px; /* Adjust spacing between navigation items */
+    margin-right: 15px; 
 }
 
 .nav-list a {
     text-decoration: none;
-    color: white; /* Set link color */
+    color: white; 
 }
-
-/* Style your other elements as needed */
 
 
 .login {
-    margin: 0; /* Remove margin for other elements */
+    margin: 0; 
 }
 
 .search-bar input {
-    padding: 5px; /* Add padding for input field */
+    padding: 5px;
     border-radius: 15px;
 }
 
